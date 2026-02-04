@@ -1,0 +1,418 @@
+# ============================================================================
+# .gitignore - Unkeny2D Project
+# For C++, Visual Studio Code, and Jenga Build System
+# ============================================================================
+
+# ============================================================================
+# JENGA BUILD SYSTEM
+# ============================================================================
+
+# Build outputs
+bin/
+obj/
+build/
+Build/
+out/
+*.build/
+
+# Jenga generated files
+.cjenga/
+
+# Intermediate files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# ============================================================================
+# C++ COMPILED FILES
+# ============================================================================
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ============================================================================
+# VISUAL STUDIO CODE
+# ============================================================================
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# ============================================================================
+# C++ BUILD SYSTEMS
+# ============================================================================
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Premake
+*.make
+*.workspace
+*.project
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+
+# ============================================================================
+# VISUAL STUDIO (Windows)
+# ============================================================================
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options directory
+.vs/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+*.sln.iml
+.idea/
+
+# ============================================================================
+# GCC / CLANG
+# ============================================================================
+
+# Core dumps
+core
+core.*
+
+# GDB
+.gdb_history
+
+# Valgrind
+*.memcheck
+*.callgrind
+*.cachegrind
+*.massif
+
+# Coverage
+*.gcov
+*.gcda
+*.gcno
+*.lcov
+coverage/
+htmlcov/
+
+# ASan/UBSan
+*.asan
+*.ubsan
+
+# ============================================================================
+# XCODE (macOS)
+# ============================================================================
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
+
+# CocoaPods
+Pods/
+
+# ============================================================================
+# OPERATING SYSTEMS
+# ============================================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# DOCUMENTATION
+# ============================================================================
+
+# Doxygen
+docs/html/
+docs/latex/
+docs/xml/
+Doxyfile.bak
+
+# Sphinx
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ============================================================================
+# DEPENDENCIES & PACKAGES
+# ============================================================================
+
+# Vcpkg
+vcpkg_installed/
+.vcpkg-root
+
+# Conan
+conaninfo.txt
+conanbuildinfo.*
+conan.lock
+
+# Package managers
+node_modules/
+vendor/
+third_party/
+external/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bz2
+*.xz
+
+# ============================================================================
+# TESTING & PROFILING
+# ============================================================================
+
+# Test results
+test_results/
+TestResults/
+*.test
+*.testlog
+
+# Benchmark results
+benchmark_results/
+*.benchmark
+
+# Profiling
+*.prof
+*.perf
+perf.data
+perf.data.old
+gmon.out
+
+# ============================================================================
+# LOGS & TEMPORARY FILES
+# ============================================================================
+
+# Log files
+*.log
+*.tlog
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Backup files
+*.bak
+*.backup
+*.old
+*_backup
+
+# Lock files
+*.lock
+!package-lock.json
+
+# ============================================================================
+# ASSETS & RESOURCES (Optionnel - À adapter selon votre projet)
+# ============================================================================
+
+# Ignorez les assets volumineux si nécessaire
+# Décommentez les lignes ci-dessous si vous ne voulez pas versionner les assets
+
+# assets/models/*.fbx
+# assets/textures/*.psd
+# assets/audio/*.wav
+
+# Mais gardez les fichiers de configuration
+!assets/**/.gitkeep
+
+# ============================================================================
+# PROJECT SPECIFIC
+# ============================================================================
+
+# User configuration files (à personnaliser)
+config.local.*
+settings.local.*
+.env.local
+.env.*.local
+
+# Cache directories
+.cache/
+cache/
+
+# IDE specific
+.clangd/
+compile_flags.txt
+
+# clang-tidy/clang-format
+.clang-tidy.bak
+.clang-format.bak
+
+# ============================================================================
+# SECURITY
+# ============================================================================
+
+# Credentials
+*.pem
+*.key
+*.cert
+credentials.*
+secrets.*
+.env
+
+# ============================================================================
+# KEEP ESSENTIAL FILES
+# ============================================================================
+
+# Force include important files even if they match patterns above
+!.gitignore
+!.gitkeep
+!README.md
+!LICENSE
+!*.jenga
+
+# Force include VS Code configuration you want to share
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
