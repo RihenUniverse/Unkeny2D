@@ -1,0 +1,73 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Nken: Build",
+            "type": "shell",
+            "command": "python3",
+            "args": [
+                "Tools/nken.py",
+                "build",
+                "--config",
+                "Debug"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Nken: Clean",
+            "type": "shell",
+            "command": "python3",
+            "args": [
+                "Tools/nken.py",
+                "clean"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Nken: Rebuild",
+            "type": "shell",
+            "command": "python3",
+            "args": [
+                "Tools/nken.py",
+                "rebuild",
+                "--config",
+                "Debug"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Nken: Run",
+            "type": "shell",
+            "command": "python3",
+            "args": [
+                "Tools/nken.py",
+                "run",
+                "--config",
+                "Debug"
+            ],
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# -----------------------------------------------------------------------------
+# FICHIER: Core/Unkeny2D/Unkeny2D.jenga
+# DESCRIPTION: Configuration du projet Unkeny2D (bibliothèque statique principale).
+#              Définit les sources, dépendances et configurations spécifiques
+#              à chaque plateforme.
+# AUTEUR: Rihen
+# DATE: 2026
+# -----------------------------------------------------------------------------
+
+from Jenga.core.api import *
+
+with project("Unkeny2D"):
+    # Type de projet: bibliothèque statique
+    staticlib()
+    
+    # Langage et version C++
+    language("C++")
+    cppdialect("C++17")
+    
+    # Fichiers sources globaux
+    files([
+        "src/Unkeny2D/Core/**.cpp",
+        "src/Unkeny2D/Events/**.cpp",
+        "src/Unkeny2D/Window/**.cpp",
+    ])
+    
+    # Répertoires d'inclusion publics
+    includedirs([
+        "src",
+        "%{Logger.location}/src",
+        "%{Nkentseu.location}/src",
+    ])
+    dependson(["Logger", "Nkentseu"])
+    
+    # Configuration spécifique à Windows
+    with filter("system:Windows"):
+        files(["src/Unkeny2D/Platform/Win32/**.cpp"])
+        links(["gdi32", "user32"])
+        addldflag("-lgdi32")
+        addldflag("-luser32")
+    
+    # Configuration spécifique à Linux
+    with filter("system:Linux"):
+        files(["src/Unkeny2D/Platform/Linux/**.cpp"])
+        links(["xcb"])
+    
+    # Configuration spécifique à Android
+    with filter("system:Android"):
+        files(["src/Unkeny2D/Platform/Android/**.cpp"])
+        links(["android", "log"])
+    
+    # Configuration spécifique à Emscripten
+    with filter("system:Emscripten"):
+        files(["src/Unkeny2D/Platform/Emscripten/**.cpp"])
+    
+    # Configuration des répertoires de sortie
+    targetdir("%{wks.location}/Build/Lib/%{cfg.buildcfg}")
+    objdir("%{wks.location}/Build/Obj/%{cfg.buildcfg}/%{prj.name}")
+    
+    # Configuration Debug
+    with filter("configurations:Debug"):
+        defines(["DEBUG", "_DEBUG"])
+        optimize("Off")
+        symbols("On")
+    
+    # Configuration Release
+    with filter("configurations:Release"):
+        defines(["NDEBUG", "RELEASE"])
+        optimize("Speed")
+        symbols("Off")

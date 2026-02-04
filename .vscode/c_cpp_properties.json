@@ -1,0 +1,47 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Windows-Debug",
+            "includePath": [
+                "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+                "Core\\Logger\\src",
+                "Core\\Nkentseu\\src",
+                "Core\\Unkeny2D\\src",
+                "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+                "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+                "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D/src",
+                "Sandbox\\src"
+            ],
+            "defines": [
+                "DEBUG",
+                "_DEBUG"
+            ],
+            "compilerPath": "clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64"
+        },
+        {
+            "name": "Windows-Release",
+            "includePath": [
+                "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+                "Core\\Logger\\src",
+                "Core\\Nkentseu\\src",
+                "Core\\Unkeny2D\\src",
+                "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+                "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+                "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D/src",
+                "Sandbox\\src"
+            ],
+            "defines": [
+                "NDEBUG",
+                "RELEASE"
+            ],
+            "compilerPath": "clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ]
+}

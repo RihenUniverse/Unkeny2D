@@ -1,0 +1,1135 @@
+{
+  "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Core\\src\\Core\\Sleep.cpp": {
+    "source_hash": "e424c261ebfcd2e816fa21a988636b971bb2312126adb87fbe94508325bbb967",
+    "object_file": "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Build\\Obj\\Debug\\Core\\Sleep.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\include"
+      ]
+    },
+    "timestamp": 1770017920.9299204
+  },
+  "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Core\\src\\Events\\EventManager.cpp": {
+    "source_hash": "5b4dfeff28193b3eaf3dc7dfc43ee40915a2d5690e8613069950daf9edd155e8",
+    "object_file": "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Build\\Obj\\Debug\\Core\\EventManager.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\include"
+      ]
+    },
+    "timestamp": 1770017920.930131
+  },
+  "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Core\\src\\Platform\\Android\\WindowAndroid.cpp": {
+    "source_hash": "5b01b37e5f0ee6b8c612382b3e7dd9cb6342e4e5e988616c66124757f8309e11",
+    "object_file": "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Build\\Obj\\Debug\\Core\\WindowAndroid.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\include"
+      ]
+    },
+    "timestamp": 1770017920.9302542
+  },
+  "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Core\\src\\Platform\\Emscripten\\WindowEmscripten.cpp": {
+    "source_hash": "aa1839c714ff70ae0428a72a4c10ac707298949a8778b3180f652a1ce9289b45",
+    "object_file": "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Build\\Obj\\Debug\\Core\\WindowEmscripten.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\include"
+      ]
+    },
+    "timestamp": 1770017920.9303787
+  },
+  "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Core\\src\\Platform\\Linux\\WindowXCB.cpp": {
+    "source_hash": "479f44dc3727ad19baa420fd435f35d7a44ae1bbe2bd9362627f5408d0fd5669",
+    "object_file": "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Build\\Obj\\Debug\\Core\\WindowXCB.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\include"
+      ]
+    },
+    "timestamp": 1770017920.9304862
+  },
+  "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Core\\src\\Platform\\Win32\\WindowWin32.cpp": {
+    "source_hash": "75d14f00034b2d2da92d919fa30b83dbd2953a648b25b205d12ca53295a9d8c0",
+    "object_file": "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Build\\Obj\\Debug\\Core\\WindowWin32.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\include"
+      ]
+    },
+    "timestamp": 1770017920.9305909
+  },
+  "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Core\\src\\Window\\Window.cpp": {
+    "source_hash": "58f31ddd09e408261b31dd3c8034db8409be5b94feab669baf85b1a90b325ef4",
+    "object_file": "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Build\\Obj\\Debug\\Core\\Window.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\include"
+      ]
+    },
+    "timestamp": 1770017920.9307065
+  },
+  "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Core\\src\\Window\\WindowManager.cpp": {
+    "source_hash": "116dccd0028df48cf653d764a70260aa4453982966661e56972c0039b95e0273",
+    "object_file": "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Build\\Obj\\Debug\\Core\\WindowManager.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\include"
+      ]
+    },
+    "timestamp": 1770017920.9308157
+  },
+  "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Sandbox\\src\\Main.cpp": {
+    "source_hash": "6319e8ab8aae6b0a6a4044d103fdca58241c687927b79723e5a42cc1b22ef4d6",
+    "object_file": "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Build\\Obj\\Debug\\Sandbox\\Main.o",
+    "options": {
+      "defines": [
+        "DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\Downloads\\nkentseu_system\\Core/Core/include",
+        "Core\\include"
+      ]
+    },
+    "timestamp": 1770017921.9727688
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\Benchmark.cpp": {
+    "source_hash": "a5b2e1cb0065e69b414b99ced3a73cdb3d3ffe2b1f6f4ddae97bee315555b986",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\Benchmark.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6578546
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\ConsoleReport.cpp": {
+    "source_hash": "fe249c4969fa25798eb0d73ce593789ca03899c0852fcc22fde59f10e401bf76",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\ConsoleReport.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6579194
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\PerformanceReporter.cpp": {
+    "source_hash": "2ff1e0d53bd8207c84e7c6ecb82606b5228fb1ff3ee3629769c78f6d94225bf0",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\PerformanceReporter.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6579785
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\Profiler.cpp": {
+    "source_hash": "7e959c0f343269c1cbd464f74fa0cb0ba9eea9c4b098136a37094f6d21f9f7ec",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\Profiler.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6580331
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\TestAggregator.cpp": {
+    "source_hash": "3ff9d480d9d24f9a91abc9bbfbc3251949f70f93fe4d7fdd833c501b285e01ea",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\TestAggregator.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6580877
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\TestAssert.cpp": {
+    "source_hash": "47447eebeb9a1c9977f0332c536775c8a46f299034a4dca68158536ca0270ad9",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\TestAssert.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6581435
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\TestCase.cpp": {
+    "source_hash": "1285b6b56940599a1049e5bf5fd4afd334a68d60d17049cfc1b64cb0537698c2",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\TestCase.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6582005
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\TestLauncher.cpp": {
+    "source_hash": "8227169089eaba10dbbf6f4f8e30af070588c0a8b587214863578f17b6ca00c1",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\TestLauncher.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6582553
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\TestReporter.cpp": {
+    "source_hash": "2874bb4597968ad1981a5b88aeaa668f122c80b2eb419765b00284036db1a78d",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\TestReporter.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6583095
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\TestRunner.cpp": {
+    "source_hash": "33f8d33d9daeb446d0ad47d7ff403c0d2990e9d3d9a5bd92f361946abb93c45b",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\TestRunner.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6583624
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\src\\Unitest\\Unitest.cpp": {
+    "source_hash": "a377bb0c6b96f9f5aa1af26d4ae4174c5e354de73456a50cb63d747aabf4cd11",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\__Unitest__\\Unitest.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++20"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src"
+      ]
+    },
+    "timestamp": 1770150992.6584163
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D\\src\\Unkeny2D\\Core\\Sleep.cpp": {
+    "source_hash": "482154bc1a7ed6907b16bc4b26010262aadbc112d928e9fa28c0ec4543e35fa1",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Unkeny2D\\Sleep.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "%{Logger.location}/src",
+        "Core\\Unkeny2D\\src"
+      ]
+    },
+    "timestamp": 1770025257.9571652
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D\\src\\Unkeny2D\\Events\\EventManager.cpp": {
+    "source_hash": "2ae6fa8de4c6a03c1e5a93384b31d8df15482bd1df5a56556b29e1a3dc80163f",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Unkeny2D\\EventManager.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "Core\\Unkeny2D\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.373343
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Android\\WindowAndroid.cpp": {
+    "source_hash": "8e746158f11c711d92d73fa2576614b4bdbba4de9e65a53d30d032677bcc37b3",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Unkeny2D\\WindowAndroid.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "Core\\Unkeny2D\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.3734002
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Emscripten\\WindowEmscripten.cpp": {
+    "source_hash": "42351c655d11dfb1e6cdb03447ee6f1e6020153b9ba9d0a78824dbc9bfd046ed",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Unkeny2D\\WindowEmscripten.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "Core\\Unkeny2D\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.373448
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Linux\\WindowXCB.cpp": {
+    "source_hash": "426d4f1adfdf17d856b77958ea199cc1262f04e2b8549b4a80be54e5e5e63cdc",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Unkeny2D\\WindowXCB.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "Core\\Unkeny2D\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.3734927
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Win32\\WindowWin32.cpp": {
+    "source_hash": "b180ce7bbd5283d8d83babdcebb80ad6d78c233b39d5e7de95ad21a17a0fd595",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Unkeny2D\\WindowWin32.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "Core\\Unkeny2D\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.373536
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D\\src\\Unkeny2D\\Window\\Window.cpp": {
+    "source_hash": "3e96ab1fd1eb6f889cc28a1a999ed1396650141652ec43c2dfe93b90cd4f9a81",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Unkeny2D\\Window.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "Core\\Unkeny2D\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.3735785
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D\\src\\Unkeny2D\\Window\\WindowManager.cpp": {
+    "source_hash": "abc171dc5bbefdfb77d693268623cb81cd4c1813f885b8ce7652b0db1cc86a4c",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Unkeny2D\\WindowManager.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "Core\\Unkeny2D\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.3736205
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Sandbox\\src\\Main.cpp": {
+    "source_hash": "6fc8db27d95e8cbe8d9093ae4d8ee9f7be173f7d177a4e601ce941883be9ad61",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Sandbox\\Main.o",
+    "options": {
+      "defines": [
+        "DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "Core\\Unkeny2D\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Unkeny2D/src",
+        "Sandbox\\src"
+      ]
+    },
+    "timestamp": 1770150992.5776823
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu\\src\\Nkentseu\\Sleep.cpp": {
+    "source_hash": "2cbd347e4c914b72e8f7d4f4c86f09b28bd26c09a987428fb1119c5d63006b11",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Nkentseu\\Sleep.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Nkentseu\\src"
+      ]
+    },
+    "timestamp": 1770150992.2119405
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\AsyncLogger.cpp": {
+    "source_hash": "7e7349a3ecf2abc8553794e5976a3dd858e81fe240a0057fb8e4f3fa12c77bad",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\AsyncLogger.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.290779
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Filters\\LevelFilter.cpp": {
+    "source_hash": "18f51874359547431d7dbe46b85f8cf6b09fc7767946a0c251573cddb518ad95",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\LevelFilter.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.2908366
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Filters\\PatternFilter.cpp": {
+    "source_hash": "0e431a87f9be986e8e0c53c39f767523c65b0ffadacb8b6741ba731918b1bdd4",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\PatternFilter.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.2908854
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Filters\\ThreadFilter.cpp": {
+    "source_hash": "d58e49c0a426e6d6c1d669291a4d67de0cd9653335e134fd500d8da19df776c1",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\ThreadFilter.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.2909307
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Formatter.cpp": {
+    "source_hash": "7813cd5ef321db9fe5b1fde1d998f19aae928b43d9ccaf92f6abfac0e267e306",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\Formatter.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.290979
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\LogLevel.cpp": {
+    "source_hash": "294e2b09105a50a71cb8bd5ce6fcc7151bd88d623a9f6e5849b59c2ce06b90c6",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\LogLevel.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.291069
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\LogMessage.cpp": {
+    "source_hash": "b11cb70a7df566a55e18127937c2aac006bde81c6c1378645b99dae6153864bf",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\LogMessage.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.2911127
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Logger.cpp": {
+    "source_hash": "44ff3c00f71b759bc3f27cfadb28d71176dc20cc12c18e040e8cfc751ba08fa2",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\Logger.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.291156
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Registry.cpp": {
+    "source_hash": "6276bdeba0a320d00404f0a33f90c452cdec15a90f56257b72e183a51e4077d7",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\Registry.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.2912028
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Sinks\\AsyncSink.cpp": {
+    "source_hash": "8a6e72b5b7d94f96724e6f295ad4d6d6ec7ef845d01a00c3f5d619b96abd4995",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\AsyncSink.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.2912529
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Sinks\\ConsoleSink.cpp": {
+    "source_hash": "a11d80c8a6be1d1c42ce72eb3bbc2729e0cbd3ed7dfbb8551281e9cd45baae31",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\ConsoleSink.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.291296
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Sinks\\DailyFileSink.cpp": {
+    "source_hash": "34f1b39f61e25840eb9c81a3a5f29a7c88d4b236512cbed36a1b747ed1dfb019",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\DailyFileSink.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.291338
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Sinks\\DistributingSink.cpp": {
+    "source_hash": "c13822833b5eb9c6560abb51dad55e4b12bc1020bdaa08cec25d7de1791b473c",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\DistributingSink.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.29138
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Sinks\\FileSink.cpp": {
+    "source_hash": "88eab4f395195733744732a8a85bf94e408141b2dec83e638fe0fbf31df8fcc1",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\FileSink.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.2914214
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Sinks\\NullSink.cpp": {
+    "source_hash": "c5ec45846f6f2e6d03e01e8961dcbf3e8757931c462d63bca425df36651745d0",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\NullSink.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.2914615
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Sinks\\RotatingFileSink.cpp": {
+    "source_hash": "d9ebbfd85afc7d720c54ad9bc20991700b592d84255a25bacb3169ecf2203cce",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\RotatingFileSink.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.291502
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger\\src\\Logger\\Log.cpp": {
+    "source_hash": "5c006338655c738d959274a738e13b55044d931282763925edb8c6223546b7cd",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Logger\\Log.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.2910244
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Maths\\src\\Maths\\Matrix3x3.cpp": {
+    "source_hash": "0030e20202cc10219d6689a23be8960960c1590f416df08dcedfd641bc785ce5",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Maths\\Matrix3x3.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "MATH_DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Maths\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.3283706
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Maths\\src\\Maths\\Random.cpp": {
+    "source_hash": "3a77bcfa58543c3994f2bea507b3694276d28de5846c3af79afd376593558e5e",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Maths\\Random.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "MATH_DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Maths\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.3284302
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Maths\\src\\Maths\\Vector2.cpp": {
+    "source_hash": "4490445937f6fae7738f93e7d7c9a5023bf56bf6ebb53afb0959118b9dd7f656",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Maths\\Vector2.o",
+    "options": {
+      "defines": [
+        "DEBUG",
+        "MATH_DEBUG",
+        "_DEBUG"
+      ],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "Core\\Logger\\src",
+        "Core\\Maths\\src",
+        "Core\\Nkentseu\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150992.3284743
+  },
+  "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest\\AutoMainTemplate\\Entry.cpp": {
+    "source_hash": "90ae5ff2c5bdf2b8d052564507c974952cb76ad689fda324a50de210488795e1",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Maths_Tests\\Entry.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Jenga\\Unitest\\src",
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+        "Core\\Maths\\src",
+        "Core\\Maths\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150995.2396736
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Maths\\tests\\ConstantsTest.cpp": {
+    "source_hash": "576c0e949601b1f08e59f82a2c49e8640b82f08d4dd9b3a0992fe36e8fba6891",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Maths_Tests\\ConstantsTest.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Jenga\\Unitest\\src",
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+        "Core\\Maths\\src",
+        "Core\\Maths\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150995.2397254
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Maths\\tests\\Matrix3x3Test.cpp": {
+    "source_hash": "6ca6470acbd7ee36af4ebb79736e93dc7505d4db2bc446dc5a06e02b6f6f9e6a",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Maths_Tests\\Matrix3x3Test.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Jenga\\Unitest\\src",
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+        "Core\\Maths\\src",
+        "Core\\Maths\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150995.2397664
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Maths\\tests\\RandomTest.cpp": {
+    "source_hash": "8bddd60a575a040273fc0b93dc27d95009b0caec5bb5bb7168daa536292410ea",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Maths_Tests\\RandomTest.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Jenga\\Unitest\\src",
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+        "Core\\Maths\\src",
+        "Core\\Maths\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150995.239806
+  },
+  "E:\\Projets\\2026\\Unkeny2D\\Core\\Maths\\tests\\Vector2Test.cpp": {
+    "source_hash": "e87634cf26bc6b55b72c72a217152ef85e02625f60f0adf532f802469fda7d4a",
+    "object_file": "E:\\Projets\\2026\\Unkeny2D\\Build\\Obj\\Debug\\Maths_Tests\\Vector2Test.o",
+    "options": {
+      "defines": [],
+      "flags": [
+        "-O0",
+        "-g",
+        "-std=c++17"
+      ],
+      "includes": [
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Jenga\\Unitest\\src",
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+        "C:\\Users\\Rihen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Jenga\\Unitest/src",
+        "Core\\Maths\\src",
+        "Core\\Maths\\src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Logger/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src",
+        "E:\\Projets\\2026\\Unkeny2D\\Core\\Nkentseu/src"
+      ]
+    },
+    "timestamp": 1770150995.2398436
+  }
+}

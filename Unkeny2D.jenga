@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# -----------------------------------------------------------------------------
+# FICHIER: workspace.jenga
+# DESCRIPTION: Fichier de configuration principal du workspace pour le système
+#              de build Jenga. Définit les configurations globales, plateformes
+#              et projets inclus.
+# AUTEUR: Rihen
+# DATE: 2026
+# -----------------------------------------------------------------------------
+
+from Jenga.core.api import *
+
+with workspace("Unkeny2D"):
+    # Définition des configurations de build disponibles
+    configurations(["Debug", "Release"])
+    
+    # Plateformes cibles supportées
+    platforms(["Windows", "Linux", "Android", "Emscripten"])
+    
+    # Projet de démarrage par défaut
+    startproject("Sandbox")
+    
+    # Configuration de la toolchain par défaut
+    with toolchain("default", "clang++"):
+        cppcompiler("clang++")
+        ccompiler("clang")
+    
+    # Inclusion du projet Logger (bibliothèque de loggin)
+    with include("Core/Nkentseu/Nkentseu.jenga"):
+        pass
+    
+    # Inclusion du projet Logger (bibliothèque de loggin)
+    with include("Core/Logger/Logger.jenga"):
+        pass
+    
+    # Inclusion du projet Maths (bibliothèque de math)
+    with include("Core/Maths/Maths.jenga"):
+        pass
+    
+    # Inclusion du projet Unkeny2D (bibliothèque principale)
+    with include("Core/Unkeny2D/Unkeny2D.jenga"):
+        pass
+    
+    # Inclusion du projet Sandbox (application de test)
+    with include("Sandbox/Sandbox.jenga"):
+        pass

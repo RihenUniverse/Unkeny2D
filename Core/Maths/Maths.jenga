@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# -----------------------------------------------------------------------------
+# FICHIER: Core/Math/Math.jenga
+# DESCRIPTION: Configuration du projet Math (bibliothèque mathématique statique).
+#              Fournit des structures et opérations mathématiques optimisées.
+# AUTEUR: Rihen
+# DATE: 2026
+# -----------------------------------------------------------------------------
+
+from Jenga.core.api import *
+
+with project("Maths"):
+    # Type de projet: bibliothèque statique
+    staticlib()
+    
+    # Langage et version C++
+    language("C++")
+    cppdialect("C++17")
+    
+    # Fichiers sources globaux
+    files([
+        "src/Maths/**.cpp",
+    ])
+    
+    # Répertoires d'inclusion publics
+    includedirs([
+        "src",
+        "%{Nkentseu.location}/src",
+        "%{Logger.location}/src",
+    ])
+    
+    dependson(["Nkentseu", "Logger"])
+    
+    # Configuration des répertoires de sortie
+    targetdir("%{wks.location}/Build/Lib/%{cfg.buildcfg}")
+    objdir("%{wks.location}/Build/Obj/%{cfg.buildcfg}/%{prj.name}")
+    
+    # Configuration Debug
+    with filter("configurations:Debug"):
+        defines(["DEBUG", "_DEBUG", "MATH_DEBUG"])
+        optimize("Off")
+        symbols("On")
+    
+    # Configuration Release
+    with filter("configurations:Release"):
+        defines(["NDEBUG", "RELEASE", "MATH_RELEASE"])
+        optimize("Speed")
+        symbols("Off")
+
+    # Configuration des tests unitaires
+    with test("MathTests"):
+        # Les tests héritent automatiquement de la configuration de Maths
+        testfiles(["%{wks.location}/Core/Maths/tests/**.cpp"])
+        
+        # Options de test
+        testoptions(["--verbose", "--color"])

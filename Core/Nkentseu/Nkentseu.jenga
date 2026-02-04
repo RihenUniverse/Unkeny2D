@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# -----------------------------------------------------------------------------
+# FICHIER: Core/Nkentseu/Nkentseu.jenga
+# DESCRIPTION: Configuration du projet Nkentseu (bibliothèque statique de principal).
+# AUTEUR: Rihen
+# DATE: 2026
+# -----------------------------------------------------------------------------
+
+from Jenga.core.api import *
+
+with project("Nkentseu"):
+    # Type de projet: bibliothèque statique staticlib sharedlib consoleapp windowapp
+    staticlib()
+    
+    # Langage et version C++
+    language("C++")
+    cppdialect("C++17")
+    
+    # Fichiers sources globaux
+    files([
+        "src/**.cpp",
+    ])
+    
+    # Répertoires d'inclusion publics
+    includedirs([
+        "src"
+    ])
+    
+    # Configuration spécifique à Windows
+    with filter("system:Windows"):
+        links(["gdi32", "user32"])
+        addldflag("-lgdi32")
+        addldflag("-luser32")
+    
+    # Configuration spécifique à Linux
+    with filter("system:Linux"):
+        links(["xcb"])
+    
+    # Configuration spécifique à Android
+    with filter("system:Android"):
+        links(["android", "log"])
+    
+    # Configuration spécifique à Emscripten
+    with filter("system:Emscripten"):
+        pass
+    
+    # Configuration des répertoires de sortie
+    targetdir("%{wks.location}/Build/Lib/%{cfg.buildcfg}")
+    objdir("%{wks.location}/Build/Obj/%{cfg.buildcfg}/%{prj.name}")
+    
+    # Configuration Debug
+    with filter("configurations:Debug"):
+        defines(["DEBUG", "_DEBUG"])
+        optimize("Off")
+        symbols("On")
+    
+    # Configuration Release
+    with filter("configurations:Release"):
+        defines(["NDEBUG", "RELEASE"])
+        optimize("Speed")
+        symbols("Off")
