@@ -15,25 +15,8 @@
 // MACROS D'EXPORTATION/IMPORTATION (DLL/SHARED LIBRARY)
 // -----------------------------------------------------------------------------
 
-#if defined(NK_PLATFORM_WINDOWS)
-    #if defined(NK_BUILD_SHARED)
-        #define NK_API __declspec(dllexport)
-    #elif defined(NK_USE_SHARED)
-        #define NK_API __declspec(dllimport)
-    #else
-        #define NK_API
-    #endif
-
-#elif defined(NK_COMPILER_GCC) || defined(NK_COMPILER_CLANG)
-    #if defined(NK_BUILD_SHARED)
-        #define NK_API __attribute__((visibility("default")))
-    #else
-        #define NK_API
-    #endif
-
-#else
-    #define NK_API
-#endif
+// Pour les bibliothèques statiques, NK_API est toujours vide
+#define NK_API
 
 // -----------------------------------------------------------------------------
 // MACROS D'INLINING

@@ -56,8 +56,8 @@ with project("Unkeny2D"):
         files(["src/Unkeny2D/Platform/Emscripten/**.cpp"])
     
     # Configuration des répertoires de sortie
-    targetdir("%{wks.location}/Build/Lib/%{cfg.buildcfg}")
-    objdir("%{wks.location}/Build/Obj/%{cfg.buildcfg}/%{prj.name}")
+    targetdir("%{wks.location}/Build/Lib/%{cfg.buildcfg}-%{cfg.system}")
+    objdir("%{wks.location}/Build/Obj/%{cfg.buildcfg}-%{cfg.system}/%{prj.name}")
     
     # Configuration Debug
     with filter("configurations:Debug"):

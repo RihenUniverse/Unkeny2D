@@ -10,6 +10,9 @@
 
 #ifdef _WIN32
 #include <Windows.h>
+#else
+#include <unistd.h>    // Pour isatty(), fileno()
+#include <cstring>     // Pour strstr()
 #endif
 
 // -----------------------------------------------------------------------------
@@ -214,9 +217,23 @@ namespace nkentseu {
                 static bool supports = false;
                 
                 if (!checked) {
-                    const char* term = getenv("TERM");
-                    supports = (isatty(fileno(stdout)) && term != nullptr && 
-                            strstr(term, "xterm") != nullptr);
+                    // Vérifier si stdout est un terminal
+                    int fd = fileno(stdout);
+                    if (fd < 0) {
+                        supports = false;
+                    } else {
+                        // Vérifier si c'est un TTY
+                        if (isatty(fd)) {
+                            // Vérifier la variable TERM
+                            const char* term = getenv("TERM");
+                            if (term != nullptr) {
+                                // Chercher des terminaux qui supportent les couleurs
+                                supports = (strstr(term, "xterm") != nullptr ||
+                                        strstr(term, "color") != nullptr ||
+                                        strstr(term, "ansi") != nullptr);
+                            }
+                        }
+                    }
                     checked = true;
                 }
                 

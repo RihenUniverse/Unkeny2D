@@ -14,25 +14,8 @@
 // MACROS D'EXPORTATION/IMPORTATION POUR LOGGER
 // -----------------------------------------------------------------------------
 
-#if defined(NK_PLATFORM_WINDOWS)
-    #if defined(LOGGER_BUILD_SHARED)
-        #define LOGGER_API __declspec(dllexport)
-    #elif defined(LOGGER_USE_SHARED)
-        #define LOGGER_API __declspec(dllimport)
-    #else
-        #define LOGGER_API
-    #endif
-
-#elif defined(NK_COMPILER_GCC) || defined(NK_COMPILER_CLANG)
-    #if defined(LOGGER_BUILD_SHARED)
-        #define LOGGER_API __attribute__((visibility("default")))
-    #else
-        #define LOGGER_API
-    #endif
-
-#else
-    #define LOGGER_API
-#endif
+// Pour les bibliothèques statiques, LOGGER_API est toujours vide
+#define LOGGER_API
 
 // -----------------------------------------------------------------------------
 // MACROS D'INLINING POUR LOGGER

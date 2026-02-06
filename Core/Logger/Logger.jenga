@@ -18,6 +18,10 @@ with project("Logger"):
     language("C++")
     cppdialect("C++17")
     
+    # Configuration des répertoires de sortie
+    targetdir("%{wks.location}/Build/Lib/%{cfg.buildcfg}-%{cfg.system}")
+    objdir("%{wks.location}/Build/Obj/%{cfg.buildcfg}-%{cfg.system}/%{prj.name}")
+    
     # Fichiers sources globaux
     files([
         "src/**.cpp",
@@ -47,10 +51,6 @@ with project("Logger"):
     # Configuration spécifique à Emscripten
     with filter("system:Emscripten"):
         pass
-    
-    # Configuration des répertoires de sortie
-    targetdir("%{wks.location}/Build/Lib/%{cfg.buildcfg}")
-    objdir("%{wks.location}/Build/Obj/%{cfg.buildcfg}/%{prj.name}")
     
     # Configuration Debug
     with filter("configurations:Debug"):

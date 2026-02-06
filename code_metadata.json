@@ -1,0 +1,142 @@
+{
+  "base_directory": "E:\\Projets\\2026\\Unkeny2D",
+  "included_extensions": [
+    "cpp",
+    "h",
+    "jenga"
+  ],
+  "excluded_extensions": [],
+  "included_paths": [],
+  "excluded_paths": [],
+  "included_files": [],
+  "excluded_files": [],
+  "structure": {
+    ".": [
+      "Unkeny2D.jenga"
+    ],
+    "Core\\Logger": [
+      "Core\\Logger\\Logger.jenga"
+    ],
+    "Core\\Logger\\src\\Logger": [
+      "Core\\Logger\\src\\Logger\\AsyncLogger.cpp",
+      "Core\\Logger\\src\\Logger\\AsyncLogger.h",
+      "Core\\Logger\\src\\Logger\\Export.h",
+      "Core\\Logger\\src\\Logger\\Formatter.cpp",
+      "Core\\Logger\\src\\Logger\\Formatter.h",
+      "Core\\Logger\\src\\Logger\\Log.cpp",
+      "Core\\Logger\\src\\Logger\\Log.h",
+      "Core\\Logger\\src\\Logger\\Logger.cpp",
+      "Core\\Logger\\src\\Logger\\Logger.h",
+      "Core\\Logger\\src\\Logger\\LogLevel.cpp",
+      "Core\\Logger\\src\\Logger\\LogLevel.h",
+      "Core\\Logger\\src\\Logger\\LogMessage.cpp",
+      "Core\\Logger\\src\\Logger\\LogMessage.h",
+      "Core\\Logger\\src\\Logger\\Pattern.h",
+      "Core\\Logger\\src\\Logger\\Registry.cpp",
+      "Core\\Logger\\src\\Logger\\Registry.h",
+      "Core\\Logger\\src\\Logger\\Sink.h"
+    ],
+    "Core\\Logger\\src\\Logger\\Filters": [
+      "Core\\Logger\\src\\Logger\\Filters\\LevelFilter.cpp",
+      "Core\\Logger\\src\\Logger\\Filters\\LevelFilter.h",
+      "Core\\Logger\\src\\Logger\\Filters\\PatternFilter.cpp",
+      "Core\\Logger\\src\\Logger\\Filters\\PatternFilter.h",
+      "Core\\Logger\\src\\Logger\\Filters\\ThreadFilter.cpp",
+      "Core\\Logger\\src\\Logger\\Filters\\ThreadFilter.h"
+    ],
+    "Core\\Logger\\src\\Logger\\Sinks": [
+      "Core\\Logger\\src\\Logger\\Sinks\\AsyncSink.cpp",
+      "Core\\Logger\\src\\Logger\\Sinks\\AsyncSink.h",
+      "Core\\Logger\\src\\Logger\\Sinks\\ConsoleSink.cpp",
+      "Core\\Logger\\src\\Logger\\Sinks\\ConsoleSink.h",
+      "Core\\Logger\\src\\Logger\\Sinks\\DailyFileSink.cpp",
+      "Core\\Logger\\src\\Logger\\Sinks\\DailyFileSink.h",
+      "Core\\Logger\\src\\Logger\\Sinks\\DistributingSink.cpp",
+      "Core\\Logger\\src\\Logger\\Sinks\\DistributingSink.h",
+      "Core\\Logger\\src\\Logger\\Sinks\\FileSink.cpp",
+      "Core\\Logger\\src\\Logger\\Sinks\\FileSink.h",
+      "Core\\Logger\\src\\Logger\\Sinks\\NullSink.cpp",
+      "Core\\Logger\\src\\Logger\\Sinks\\NullSink.h",
+      "Core\\Logger\\src\\Logger\\Sinks\\RotatingFileSink.cpp",
+      "Core\\Logger\\src\\Logger\\Sinks\\RotatingFileSink.h"
+    ],
+    "Core\\Maths": [
+      "Core\\Maths\\Maths.jenga"
+    ],
+    "Core\\Maths\\src\\Maths": [
+      "Core\\Maths\\src\\Maths\\MathConstants.h",
+      "Core\\Maths\\src\\Maths\\Matrix3x3.cpp",
+      "Core\\Maths\\src\\Maths\\Matrix3x3.h",
+      "Core\\Maths\\src\\Maths\\Random.cpp",
+      "Core\\Maths\\src\\Maths\\Random.h",
+      "Core\\Maths\\src\\Maths\\Vector2.cpp",
+      "Core\\Maths\\src\\Maths\\Vector2.h"
+    ],
+    "Core\\Maths\\tests": [
+      "Core\\Maths\\tests\\ConstantsTest.cpp",
+      "Core\\Maths\\tests\\Matrix3x3Test.cpp",
+      "Core\\Maths\\tests\\RandomTest.cpp",
+      "Core\\Maths\\tests\\Vector2Test.cpp"
+    ],
+    "Core\\Nkentseu": [
+      "Core\\Nkentseu\\Nkentseu.jenga"
+    ],
+    "Core\\Nkentseu\\src\\Nkentseu": [
+      "Core\\Nkentseu\\src\\Nkentseu\\Sleep.cpp",
+      "Core\\Nkentseu\\src\\Nkentseu\\Sleep.h",
+      "Core\\Nkentseu\\src\\Nkentseu\\Types.h"
+    ],
+    "Core\\Nkentseu\\src\\Nkentseu\\Config": [
+      "Core\\Nkentseu\\src\\Nkentseu\\Config\\Architecture.h",
+      "Core\\Nkentseu\\src\\Nkentseu\\Config\\Compiler.h",
+      "Core\\Nkentseu\\src\\Nkentseu\\Config\\Export.h",
+      "Core\\Nkentseu\\src\\Nkentseu\\Config\\Platform.h"
+    ],
+    "Core\\Unkeny2D": [
+      "Core\\Unkeny2D\\Unkeny2D.jenga"
+    ],
+    "Core\\Unkeny2D\\src\\Unkeny2D": [
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Unkeny.h"
+    ],
+    "Core\\Unkeny2D\\src\\Unkeny2D\\Events": [
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Events\\Event.h",
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Events\\EventManager.cpp",
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Events\\EventManager.h"
+    ],
+    "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Android": [
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Android\\WindowAndroid.cpp",
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Android\\WindowAndroid.h"
+    ],
+    "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Emscripten": [
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Emscripten\\WindowEmscripten.cpp",
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Emscripten\\WindowEmscripten.h"
+    ],
+    "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\iOS": [
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\iOS\\WindowIOS.h"
+    ],
+    "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Linux": [
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Linux\\WindowXCB.cpp",
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Linux\\WindowXCB.h"
+    ],
+    "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\macOS": [
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\macOS\\WindowMacOS.h"
+    ],
+    "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Win32": [
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Win32\\WindowWin32.cpp",
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Platform\\Win32\\WindowWin32.h"
+    ],
+    "Core\\Unkeny2D\\src\\Unkeny2D\\Window": [
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Window\\Window.cpp",
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Window\\Window.h",
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Window\\WindowManager.cpp",
+      "Core\\Unkeny2D\\src\\Unkeny2D\\Window\\WindowManager.h"
+    ],
+    "Sandbox": [
+      "Sandbox\\Sandbox.jenga"
+    ],
+    "Sandbox\\src": [
+      "Sandbox\\src\\Main.cpp"
+    ]
+  },
+  "timestamp": "1770235341.5485601"
+}

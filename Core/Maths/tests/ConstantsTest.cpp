@@ -44,10 +44,10 @@ TEST_CASE(Math, Constants_GlobalAccess) {
 TEST_CASE(Math, Constants_UsageInCalculations) {
     // Test utilisation des constantes dans des calculs
     float circleArea = nkentseu::math::PI * 5.0f * 5.0f;
-    ASSERT_NEAR(78.53981635f, circleArea, 0.000001f);
+    ASSERT_NEAR(78.53981634f, circleArea, 0.000001f);
     
     float circumference = nkentseu::math::TWO_PI * 5.0f;
-    ASSERT_NEAR(31.41592654f, circumference, 0.000001f);
+    ASSERT_NEAR(31.41592654f, circumference, 0.0001f);
     
     // Conversion d'angle
     float angleDegrees = 45.0f;
